@@ -8,6 +8,6 @@ RUN npm install
 
 EXPOSE 2021
 
-COPY website/ ./
+COPY ./website/* ./
 
 CMD ["node", "website.js"]
