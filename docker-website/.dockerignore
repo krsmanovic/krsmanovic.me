@@ -1,0 +1,8 @@
+# Ignore Node modules folder
+node_modules/
+error.log
+error.log/
+
+# Ignore docker files
+.dockerignore
+docker-compose.yml

@@ -1,0 +1,38 @@
+html {
+  background: #232323;
+}
+
+.container{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer {
+  height: 100px;
+}
+
+#main-content {
+  font-family: Tahoma;
+  color: #b8b7b5;
+  font-size: 500%;
+  text-align: center;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  animation-name: appear;
+  animation-duration: 10s;
+}
+
+#footer-content {
+  font-family: Tahoma;
+  color: #b8b7b5;
+  font-size: 70%;
+  text-align: center;
+}
+
+@keyframes appear {
+  0%   {color: #232323;}
+  100% {color: #b8b7b5;}
+}
