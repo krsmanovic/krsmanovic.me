@@ -38,6 +38,7 @@ then
         then
         echo "Website docker compose tag updated successfully."
         echo
+        cp docker-compose.yml docker-compose.yml-$DATE
     else
         echo "Website docker compose tag update failed."
         echo
@@ -49,5 +50,3 @@ else
     echo
     exit 1
 fi
-
-cp docker-compose.yml docker-compose.yml-$DATE
