@@ -49,3 +49,5 @@ else
     echo
     exit 1
 fi
+
+cp docker-compose.yml docker-compose.yml-$DATE
