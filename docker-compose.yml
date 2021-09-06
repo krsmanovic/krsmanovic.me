@@ -8,7 +8,6 @@ services:
       - 2021
     volumes:
       - ./docker-website:/website
-      - ./docker-website/error.log:/usr/src/website/error.log
   nginx:
     image: nginx-krsmanovic:20210710
     container_name: nginx-ingress
@@ -17,5 +16,4 @@ services:
       - 80:80
       - 443:443
     volumes:
-      - ./docker-nginx/conf/nginx.conf:/etc/nginx/nginx.conf
       - /etc/letsencrypt:/etc/letsencrypt
