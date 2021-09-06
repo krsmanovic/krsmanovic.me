@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DATE=$(date -I|sed 's/-//g')
+DATE=$(date +%Y%m%d)
 
 echo
 echo "Building docker containers and updating tags specified in the compose file..."
